@@ -85,6 +85,8 @@ export default {
   box-shadow: 3px 3px 3px grey;
   color: white;
   text-align: center;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .wrapper h1 {
@@ -123,8 +125,7 @@ export default {
   min-width: 100px;
   padding-left: 10px;
   padding-right: 10px;
-  transition: transform 500ms ease;
-  transition: all 0.2s ease;
+  transition: all 0.5s ease;
 }
 
 .wrapper button:disabled {
@@ -145,7 +146,6 @@ export default {
     rgba(63, 94, 251, 1) 0%,
     rgba(252, 70, 107, 1) 100%
   );
-  transform: scale(1.05) translateY(-1px);
 }
 
 .error {
